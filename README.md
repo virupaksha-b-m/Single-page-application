@@ -1,5 +1,5 @@
 # Single-page-application
-teck stack used 
+# teck stack used 
 html,css,javascript,nodjs and expressJs
 
 link for demo : https://calculater-addition-bmi.onrender.com/
