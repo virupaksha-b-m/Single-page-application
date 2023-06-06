@@ -1,40 +1,62 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+  
     <meta charset="utf-8">
     <title>calculator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/styles.css">
   </head>
   <body>
-    <section class="calculator">
-<form>
-  <input type="text" class="screen">
-</form>
+    
+    <style>
+      h1{
+        color: brown;
+      }
 
-<div class="buttons">
-<button type="button" class="btn btn-yellow" data-num="*">*</button>
-<button type="button" class="btn btn-yellow" data-num="/">/</button>
-<button type="button" class="btn btn-yellow" data-num="+">+</button>
-<button type="button" class="btn btn-yellow" data-num="-">-</button>
+      div{
+        position: absolute;
+        top: 100px;
+        left: 30%;
+      }
 
-<button type="button" class="btn btn-grey" data-num="9">9</button>
-<button type="button" class="btn btn-grey" data-num="8">8</button>
-<button type="button" class="btn btn-grey" data-num="7">7</button>
-<button type="button" class="btn btn-grey" data-num="6">6</button>
-<button type="button" class="btn btn-grey" data-num="5">5</button>
-<button type="button" class="btn btn-grey" data-num="4">4</button>
-<button type="button" class="btn btn-grey" data-num="3">3</button>
-<button type="button" class="btn btn-grey" data-num="2">2</button>
-<button type="button" class="btn btn-grey" data-num="1">1</button>
-<button type="button" class="btn btn-grey" data-num="0">0</button>
-<button type="button" class="btn btn-grey" data-num=".">.</button>
+      nav{
+        position: absolute;
+        height: 100%;
+        width: 150px;
+        background-color: bisque;
+      }
 
-<button type="button" class="btn-equal">=</button>
-<button type="button" class="btn-clear">C</button>
+      a{
+        text-decoration: none;
+      }
+      li{
+        color: bisque;
+      }
+    </style>
+    <nav class="container">
+      <ul>
+        <li>
+          <a  href="/" data-link> calculator </a>
+        </li>
+        <br><br>
+        <li>
+          <a  href="/bmicalculator" data-link> bmiCalculator </a>
+        </li>
+        
+      </ul> 
+
+    </nav>
+
+<div>
+  <h1>Calculator</h1>
+
+   
+  <form  action="/" method="post">
+    <input type="text" name="num1" placeholder="first numcer"/>
+    <input type="text" name="num2" placeholder="second numcer"/>
+
+    <button type="submit" name="submit"> calculat</button>
+  </form>
+
 </div>
-    </section>
-<script src="app.js"></script>
-
-</script>
   </body>
 </html>
