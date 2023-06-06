@@ -1,5 +1,6 @@
 # Single-page-application
-here i have created basic calcualation of the calculator using javascript
+teck stack used 
+html,css,javascript,nodjs and expressJs
 
 link for demo : https://calculater-addition-bmi.onrender.com/
 
